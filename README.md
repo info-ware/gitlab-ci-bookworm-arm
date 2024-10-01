@@ -1,1 +1,1 @@
-Debian package builder crosscompiling for i386.
+Debian package builder crosscompiling for arm.
