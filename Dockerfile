@@ -16,3 +16,4 @@ RUN apt-get install -y libboost-filesystem-dev:armhf
 RUN apt-get install -y libcurl4-openssl-dev:armhf
 RUN apt-get install -y zlib1g-dev:armhf
 RUN apt-get install -y uuid-dev:armhf
+RUN apt-get install -y libxext-dev:armhf
