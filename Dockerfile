@@ -7,6 +7,7 @@ RUN apt-get install -y libcurl4-openssl-dev
 RUN apt-get install -y zlib1g-dev
 RUN apt-get install -y uuid-dev
 RUN apt-get install -y rsync
+RUN apt-get install -y libxext-dev
 
 
 RUN dpkg --add-architecture armhf
