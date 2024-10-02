@@ -8,6 +8,7 @@ RUN apt-get install -y zlib1g-dev
 RUN apt-get install -y uuid-dev
 RUN apt-get install -y rsync
 RUN apt-get install -y libxext-dev
+RUN apt-get install -y qt6-base-dev
 
 
 RUN dpkg --add-architecture armhf
@@ -17,3 +18,4 @@ RUN apt-get install -y libcurl4-openssl-dev:armhf
 RUN apt-get install -y zlib1g-dev:armhf
 RUN apt-get install -y uuid-dev:armhf
 RUN apt-get install -y libxext-dev:armhf
+RUN apt-get install -y qt6-base-dev:armhf
